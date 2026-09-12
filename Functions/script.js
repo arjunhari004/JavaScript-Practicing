@@ -46,7 +46,7 @@ function calculateSalary(basicSalary,bonus){
 }calculateSalary(25000,5000);
 
 
-//Electricity Bill Calculation
+//2.Electricity Bill Calculation
 
 function calculateElectricityBill(units,rate){
     let bill = units * rate;
@@ -57,7 +57,7 @@ function calculateElectricityBill(units,rate){
 calculateElectricityBill(150,7);
 
 
-//Bank balance
+//3.Bank balance
 
 function checkBalance(balance,deposit){
     let newBalance = balance + deposit;
@@ -66,7 +66,7 @@ function checkBalance(balance,deposit){
 }checkBalance(20000,5000);
 
 
-//Shopping Bill
+//4.Shopping Bill
 
 function calculateShoppingBill(price,quantity){
     let total = price * quantity;
@@ -75,7 +75,7 @@ function calculateShoppingBill(price,quantity){
 }
 calculateShoppingBill(500,3)
 
-//Student Marks
+//5.Student Marks
 
 function calculateTotalMarks(eng,maths,chemistry){
 let total = eng + maths + chemistry;
@@ -83,3 +83,40 @@ console.log("Total MARKS:",total);
 
 }
 calculateTotalMarks(80,75,90)
+
+
+//6.Mobile Recharge
+
+function mobileRecharge(balance,rechargeAmount,simCard){
+    let newBalance = balance + rechargeAmount;
+    console.log("Your"+" "+simCard+" "+"Recharge Successful");
+    console.log("New Balance:",newBalance);
+    
+    
+}mobileRecharge(100,299,"Airtel")
+
+//7.Hotel Bill
+
+function calculateHotelBill(hotelName,roomPrice,days,noOfPersons){
+    let totalBill = roomPrice* days;
+    console.log("Welcome to:",hotelName,"Hotel....");
+
+    console.log("Hotell Bill:",totalBill);
+    console.log("No Of Days",days);
+    console.log("No of Persons:",noOfPersons);
+
+    
+
+}calculateHotelBill("Taj",2000,3,4);
+
+
+//8.Petrol cost
+
+function calculatePetrolCost(litres,pricePerLitre){
+    let totalCost = litres *pricePerLitre;
+    console.log("Petrol cost:",totalCost);
+    
+}calculatePetrolCost(10,105);
+
+
+//
