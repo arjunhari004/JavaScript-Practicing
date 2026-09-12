@@ -119,4 +119,18 @@ function calculatePetrolCost(litres,pricePerLitre){
 }calculatePetrolCost(10,105);
 
 
-//
+//9.Employee Bonus
+
+function calculateBonus(salary,bonusPercentage){
+    let bonus =  salary * bonusPercentage / 100;
+    console.log("Employee Bonus:",bonus);
+    
+}calculateBonus(30000,10)
+
+//10.Simple Loan Interest
+
+function calculateInterest(principal,rate,years){
+    let interest = principal *rate *years /100;
+    console.log("Interests:",interest);
+    
+}calculateInterest(50000,8,2);
