@@ -44,3 +44,23 @@ function calculateSalary(basicSalary,bonus){
     console.log("Total salary:",totalSalary);
     
 }calculateSalary(25000,5000);
+
+
+//Electricity Bill Calculation
+
+function calculateElectricityBill(units,rate){
+    let bill = units * rate;
+    console.log("Electricity Bill:",bill);
+    
+
+}
+calculateElectricityBill(150,7);
+
+
+//Bank balance
+
+function checkBalance(balance,deposit){
+    let newBalance = balance + deposit;
+    console.log("New Balance:",newBalance);
+    
+}checkBalance(20000,5000);
