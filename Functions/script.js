@@ -64,3 +64,22 @@ function checkBalance(balance,deposit){
     console.log("New Balance:",newBalance);
     
 }checkBalance(20000,5000);
+
+
+//Shopping Bill
+
+function calculateShoppingBill(price,quantity){
+    let total = price * quantity;
+    console.log("Shopping Bill:",total);
+    
+}
+calculateShoppingBill(500,3)
+
+//Student Marks
+
+function calculateTotalMarks(eng,maths,chemistry){
+let total = eng + maths + chemistry;
+console.log("Total MARKS:",total);
+
+}
+calculateTotalMarks(80,75,90)
