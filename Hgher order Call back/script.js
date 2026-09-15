@@ -39,3 +39,18 @@ function sendConfirmation(movie,time){
     
 }ticketBooking(sendConfirmation)
 
+
+
+
+
+
+function f1(){
+    return "Hiii"
+}
+let a=f1()
+console.log(a);
+
+
+
+
+
