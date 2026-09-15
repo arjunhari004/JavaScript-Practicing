@@ -134,3 +134,5 @@ function calculateInterest(principal,rate,years){
     console.log("Interests:",interest);
     
 }calculateInterest(50000,8,2);
+
+
