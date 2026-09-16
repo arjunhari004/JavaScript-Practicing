@@ -1,24 +1,24 @@
-// function outer(){
-//     console.log("This is outer Function");
-//     function inner(){
-//         console.log("This is inner Function");
+function outer(){
+    console.log("This is outer Function");
+    function inner(){
+        console.log("This is inner Function");
         
-//     }
-//     inner()
-// }
-// outer()
+    }
+    inner()
+}
+outer()
 
 
 
-// function outer(){
-//     let branch="Kochi"
-//     function inner(){
-//         console.log(branch);
+function outer(){
+    let branch="Kochi"
+    function inner(){
+        console.log(branch);
 
         
-//     }inner()
-// }
-// outer()
+    }inner()
+}
+outer()
 
 
 
