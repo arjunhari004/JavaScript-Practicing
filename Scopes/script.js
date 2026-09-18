@@ -119,16 +119,28 @@
 //function scope 
 
 
-function calculateSalary(){
-    let salary = 30000;
-    let bonus = 5000;
-    let totalSalary = salary + bonus;
-    console.log(employee);
-    console.log("Total Salary:",totalSalary);
+// function calculateSalary(){
+//     let salary = 30000;
+//     let bonus = 5000;
+//     let totalSalary = salary + bonus;
+//     console.log(employee);
+//     console.log("Total Salary:",totalSalary);
     
     
-}calculateSalary();
-console.log(salary);
+// }calculateSalary();
+// console.log(salary);
 
 
 
+function checkBalance() {
+
+    let balance = 25000;
+    let accountNumber = "12345";
+
+    console.log("Balance:", balance);
+    console.log("Account:", accountNumber);
+}
+
+checkBalance();
+
+console.log(balance); 
