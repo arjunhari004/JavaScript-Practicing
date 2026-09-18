@@ -132,15 +132,71 @@
 
 
 
-function checkBalance() {
+// function checkBalance() {
 
-    let balance = 25000;
-    let accountNumber = "12345";
+//     let balance = 25000;
+//     let accountNumber = "12345";
 
-    console.log("Balance:", balance);
-    console.log("Account:", accountNumber);
+//     console.log("Balance:", balance);
+//     console.log("Account:", accountNumber);
+// }
+
+// checkBalance();
+
+// console.log(balance); 
+
+
+
+
+
+// function calculateElectricityBill() {
+
+//     let units = 180;
+//     let rate = 6;
+
+//     let bill = units * rate;
+
+//     console.log("Electricity Bill:", bill);
+// }
+
+// calculateElectricityBill();
+
+// console.log(units); 
+
+
+
+
+
+
+
+// let product = "Laptop";
+
+// if (product === "Laptop") {
+
+//     let discount = 10;
+//     const message = "10% discount available";
+
+//     console.log(product);
+//     console.log(discount);
+//     console.log(message);
+// }
+
+// console.log(product);  
+// console.log(discount); 
+
+
+
+
+
+
+let employeePresent = true;
+
+if (employeePresent) {
+
+    let attendanceMessage = "Employee is Present";
+
+    console.log(attendanceMessage);
 }
 
-checkBalance();
-
-console.log(balance); 
+console.log(employeePresent);     
+console.log(attendanceMessage); 
