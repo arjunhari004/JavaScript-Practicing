@@ -67,19 +67,68 @@
 
 
 
-let companyName = "TestYantra";
-function employeeDetails(){
-    console.log("Employee works at"+ companyName);
+// let companyName = "TestYantra";
+// function employeeDetails(){
+//     console.log("Employee works at"+ companyName);
     
-}
-function companyDetails(){
-    console.log("Company: "+ companyName);
+// }
+// function companyDetails(){
+//     console.log("Company: "+ companyName);
     
-}
-employeeDetails();
-companyDetails();
+// }
+// employeeDetails();
+// companyDetails();
 
 
+
+// let currency="₹";
+// function showProductPrice(){
+//     let price = 25000;
+
+//     console.log("Price:",currency+price);
+    
+// }
+// showProductPrice()
+
+// function showCartTotal(){
+//     let total =45000;
+//     console.log("Cart total:",currency+total);
+    
+// }
+
+
+
+
+// let deliveryCharge = 40;
+// function calculateFoodBill(){
+//     let foodPrice =500;
+//     console.log("Food bill:",foodPrice+deliveryCharge);
+    
+// }calculateFoodBill();
+
+// function calculateOrderBill(){
+//     let orderPrice=800;
+//     console.log("Order Bill:",orderPrice+deliveryCharge);
+    
+// }calculateOrderBill();
+
+
+
+
+
+//function scope 
+
+
+function calculateSalary(){
+    let salary = 30000;
+    let bonus = 5000;
+    let totalSalary = salary + bonus;
+    console.log(employee);
+    console.log("Total Salary:",totalSalary);
+    
+    
+}calculateSalary();
+console.log(salary);
 
 
 
