@@ -189,14 +189,55 @@
 
 
 
-let employeePresent = true;
+// let employeePresent = true;
 
-if (employeePresent) {
+// if (employeePresent) {
 
-    let attendanceMessage = "Employee is Present";
+//     let attendanceMessage = "Employee is Present";
 
-    console.log(attendanceMessage);
+//     console.log(attendanceMessage);
+// }
+
+// console.log(employeePresent);     
+// console.log(attendanceMessage); 
+
+
+
+// let products = ["Laptop", "Mobile", "Watch"];
+
+// for (let i = 0; i < products.length; i++) {
+
+//     console.log(products[i]);
+// }
+
+// console.log(products); 
+// console.log(i);   
+
+
+
+// //Mixed Example
+let company = "Amazon"; // Global Scope
+
+function employeeDetails() {
+
+    let employeeName = "Ravi"; // Function Scope
+
+    if (employeeName === "Ravi") {
+
+        let salary = 40000; // Block Scope
+
+        console.log(company);      
+        console.log(employeeName); 
+        console.log(salary);       
+    }
+
+    console.log(company);      
+    console.log(employeeName); 
+    // console.log(salary);    
 }
 
-console.log(employeePresent);     
-console.log(attendanceMessage); 
+employeeDetails();
+
+console.log(company);      
+// console.log(employeeName); 
+// console.log(salary);       
