@@ -53,6 +53,38 @@
 
 
 
+// let password="Secret"; //012345
+// console.log(password.length);
+// if(password.length>8){
+//     console.log("Valid Password");
+    
+// }
+// else{
+//     alert("Invalid Format")
+
+// }
+
+
+// let user="kalam"
+// user.toUpperCase()//returning nre string but we are not storing inside a variable
+// console.log(user);
+
+
+// let user="kalam";
+// let result=user.toUpperCase()//Storing in a variable
+// console.log(user);
+// console.log(result);
+
+
+let user ="kalam";
+console.log(user);
+user=user.toUpperCase()//Storing in existing variable
+console.log(user);
+
+
+
+
+
 
 
 
