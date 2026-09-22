@@ -41,15 +41,15 @@
 
 //String-Interpolation->inserting variables or expressions inside string
 
-let name="Karthik";
-let age=23;
-console.log("my name is",name,"and i am ",age,"years old");
-console.log(`my name is ${name}and i am ${age}years old`);
+// let name="Karthik";
+// let age=23;
+// console.log("my name is",name,"and i am ",age,"years old");
+// console.log(`my name is ${name}and i am ${age}years old`);
 
 
-let a=10;
-let b=20;
-console.log(`sum of ${a} and ${b} is ${a+b}`);
+// let a=10;
+// let b=20;
+// console.log(`sum of ${a} and ${b} is ${a+b}`);
 
 
 
