@@ -76,10 +76,72 @@
 // console.log(result);
 
 
-let user ="kalam";
-console.log(user);
-user=user.toUpperCase()//Storing in existing variable
-console.log(user);
+// let user ="kalam";
+// console.log(user);
+// user=user.toUpperCase()//Storing in existing variable
+// console.log(user);
+
+
+
+
+
+// //Trim(To remove the space)
+
+// let student="   ARJUN    ";
+// console.log(student.length);
+// student=student.trim()
+// console.log(student.length);
+
+
+//Qn1
+
+// let product ="Laptop";
+// let price = 55000;
+// let message = `Product: ${product},Price: ${price}`;
+// console.log(message);
+// //Product:Laptop,Price:55000
+
+
+
+//23/09/2026(Strings)
+
+
+// let user="Kalam"//01234
+
+// let result=user.charAt(-4)
+// console.log(user);
+// console.log(result);
+
+
+// let user="Kalam"//01234
+// let a=user.indexOf("1")
+// console.log(a);
+
+
+// let user="KalamVenkat"//01234567890
+// let a=user.charCodeAt(6);
+// console.log(a);
+
+
+
+//Replaceall()
+
+// let message="I like icecream.icecream is tasty...."
+// message=message.replace("icecream","chocolate");
+// message=message.replaceAll("icecream","chocolate");
+// console.log(message);
+
+
+
+let company="Wipro";
+let res=company.startsWith("w")
+// let res=company.endsWith("O")
+console.log(res);
+
+
+
+
+
 
 
 
