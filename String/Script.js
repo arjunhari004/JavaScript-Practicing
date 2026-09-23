@@ -145,21 +145,35 @@
 
 
 
-let contact="9879";
-let notification=contact.padEnd(10,"X")
-console.log("OTP sent to your mobile number ends with:",notification);
+// let contact="9879";
+// let notification=contact.padEnd(10,"X")
+// console.log("OTP sent to your mobile number ends with:",notification);
 
 
 
-let first="Hello";
-let second="World";
-let newString=first.concat("",second)
-console.log(newString);//using concat method
-console.log(first+""+second); //using + operator
-console.log(newString);
-console.log(first);
-console.log(second);
+// let first="Hello";
+// let second="World";
+// let newString=first.concat("",second)
+// console.log(newString);//using concat method
+// console.log(first+""+second); //using + operator
+// console.log(newString);
+// console.log(first);
+// console.log(second);
 
+
+
+//Length
+
+//use find the number of characters
+
+function checkPassword(password){
+    if (password.length>=8){
+        return "Password is strong";
+    }else{
+        return "Password must contain at least 8 characters";
+    }
+}
+console.log(checkPassword("Java@1234"));
 
 
 
