@@ -166,16 +166,61 @@
 
 //use find the number of characters
 
-function checkPassword(password){
-    if (password.length>=8){
-        return "Password is strong";
+// function checkPassword(password){
+//     if (password.length>=8){
+//         return "Password is strong";
+//     }else{
+//         return "Password must contain at least 8 characters";
+//     }
+// }
+// console.log(checkPassword("Java@1234"));
+
+
+
+
+//CONCAT
+//USE:JOIN STRINGS TOGETHER
+//EXAMPLE
+
+// function createname(firstName,lastName){
+//     let fullName = firstName.concat("",lastName);
+//     if (fullName.length>0){
+//         return "Full name:" +fullName;
+//     }else{
+//         return"Name
+//     }
+// }
+
+
+//Example 2
+
+function createMessage(name,city){
+    let message = "Hello".concat(name,",welcome to",city);
+    if(message.includes("welcome")){
+        return message;
     }else{
-        return "Password must contain at least 8 characters";
+        return "Message Error";
     }
 }
-console.log(checkPassword("Java@1234"));
+console.log(createMessage("Ravi","Kochi"));
 
 
+
+//Repeat()
+//use:Repeat a string a specified number of times
+
+//Example
+
+
+// function generateStars(count){
+//     let stars = "+".repeat(count);
+//     if(count>0){
+//         return "Rating:" + stars;
+//     }else{
+//         return "No rating";
+//     }
+// }
+// console.log(generateStars(5));
 
 
 
