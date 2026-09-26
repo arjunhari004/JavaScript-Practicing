@@ -223,6 +223,20 @@ console.log(createMessage("Ravi","Kochi"));
 // console.log(generateStars(5));
 
 
+//example 2
+
+function createDivider(count){
+    let line = "-".repeat(count);
+    if(count>=5){
+        return line;
+    }else{
+        return "Divider too short";
+    }
+}
+console.log(createDivider(10));
+
+
+
 
 
 
