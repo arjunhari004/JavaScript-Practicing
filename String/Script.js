@@ -237,7 +237,18 @@ console.log(createDivider(10));
 
 
 
-
+//padStart() - add characters at the begining untill a target length is reached
+//example - 1
+function formatOTP(otp){
+  let formatted = otp.padStart(6,"0");
+  if (formatted.length === 6){
+    return "Your OTP is " +formatted;
+  }
+  else{
+    return "Invalid OTP";
+  }
+}
+console.log(formatOTP("123456"));
 
 
 
