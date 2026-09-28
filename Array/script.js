@@ -35,5 +35,36 @@ notifications.push("New Message");
 console.log(notifications);
 
 
+//pop()
+
+let cart1=["Phone","Case","Charger"];
+let removed=cart1.pop();
+console.log(removed);
+
+
+
+let notifications1=["Login","Payment","Logout"];
+console.log(notifications1.pop());
+
+
+
+let actions = ["Type","Save","Delete"];
+let lastAction = actions.pop()
+console.log(actions.pop());
+
+
+
+
+//unshift(-to add element at the starting of an array)
+let items=["Watch","Shoes","Mobile"]
+console.log(items);
+items.unshift(3500)
+console.log(items);
+//shift to remove from starting of an array
+
+items.shift()
+console.log(items);
+
+
 
 
