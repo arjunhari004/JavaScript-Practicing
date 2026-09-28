@@ -22,6 +22,18 @@ console.log(students);
 
 
 
+//Add cart Item
+
+let cart=["Mouse"];
+cart.push("Keyboard","WebCam");
+console.log(cart);
+
+
+
+let notifications=[];
+notifications.push("New Message");
+console.log(notifications);
+
 
 
 
