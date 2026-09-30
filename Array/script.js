@@ -68,31 +68,39 @@
 
 
 
-let student1="Liya";
-let prices=[10,30,40,70,100]
-let res=prices.slice(1,4)
-console.log(res);
+// let student1="Liya";
+// let prices=[10,30,40,70,100]
+// let res=prices.slice(1,4)
+// console.log(res);
 
 
-//Remove
+// //Remove
 
-let fruits=["Apple","Mango","Orange","Grape"];
-console.log(fruits);
-fruits.splice(1,2)
-console.log(fruits);
-
-
-//add
-
-let fruits1=["Apple","Mango","Orange","Grape"];
-fruits1.splice(2,0,"Ilana","Aleena")
-console.log(fruits);
+// let fruits=["Apple","Mango","Orange","Grape"];
+// console.log(fruits);
+// fruits.splice(1,2)
+// console.log(fruits);
 
 
+// //add
 
-//replace
+// let fruits1=["Apple","Mango","Orange","Grape"];
+// fruits1.splice(2,0,"Ilana","Aleena")
+// console.log(fruits);
 
-let fruits2=["Apple","Mango","Orange","Grape"];
-fruits2.splice(3,1,"Banana")
-console.log(fruits);
+
+
+// //replace
+
+// let fruits=["Apple","Mango","Orange","Grape"];
+// fruits.splice(3,4,"Banana")
+// console.log(fruits);
+
+
+//Reverse
+
+let mahaguru=["Arjun","Abhi","Abin ms","Akash"];
+console.log("Before Reverse:",mahaguru);
+mahaguru.reverse()
+console.log("After Reverse:",mahaguru);
 
