@@ -99,8 +99,17 @@
 
 //Reverse
 
-let mahaguru=["Arjun","Abhi","Abin ms","Akash"];
-console.log("Before Reverse:",mahaguru);
-mahaguru.reverse()
-console.log("After Reverse:",mahaguru);
+// let mahaguru=["Arjun","Abhi","Abin ms","Akash"];
+// console.log("Before Reverse:",mahaguru);
+// mahaguru.reverse()
+// console.log("After Reverse:",mahaguru);
+
+
+let prices=[2000,999,3500,500,700];
+prices.forEach((ele,ind,arr)=>{
+      console.log("Element:",ele+20);
+      console.log("Index:",ind); 
+      console.log(arr); 
+}) 
+
 
