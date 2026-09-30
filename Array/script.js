@@ -87,3 +87,12 @@ console.log(fruits);
 let fruits1=["Apple","Mango","Orange","Grape"];
 fruits1.splice(2,0,"Ilana","Aleena")
 console.log(fruits);
+
+
+
+//replace
+
+let fruits2=["Apple","Mango","Orange","Grape"];
+fruits2.splice(3,1,"Banana")
+console.log(fruits);
+
