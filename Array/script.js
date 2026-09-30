@@ -74,3 +74,10 @@ let res=prices.slice(1,4)
 console.log(res);
 
 
+//Remove
+
+let fruits=["Apple","Mango","Orange","Grape"];
+console.log(fruits);
+fruits.splice(1,2)
+console.log(fruits);
+
