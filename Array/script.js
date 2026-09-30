@@ -81,3 +81,9 @@ console.log(fruits);
 fruits.splice(1,2)
 console.log(fruits);
 
+
+//add
+
+let fruits1=["Apple","Mango","Orange","Grape"];
+fruits1.splice(2,0,"Ilana","Aleena")
+console.log(fruits);
