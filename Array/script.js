@@ -146,10 +146,17 @@
 
 
 
-let users=["Basil","Vasudev","Anugraha","Aswathi"];
-let res=users.map((ele)=>{
-      return ele.toUpperCase()
-})
-console.log("Actual Array",users);
-console.log("Returned Array",res);
+// let users=["Basil","Vasudev","Anugraha","Aswathi"];
+// let res=users.map((ele)=>{
+//       return ele.toUpperCase()
+// })
+// console.log("Actual Array",users);
+// console.log("Returned Array",res);
 
+
+
+let salaries=[3000,10000,30000,45000,75000];
+let res=salaries.filter((ele)=>{
+      return ele>30000
+})
+console.log(res);
