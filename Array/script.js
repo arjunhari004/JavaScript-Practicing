@@ -105,11 +105,42 @@
 // console.log("After Reverse:",mahaguru);
 
 
-let prices=[2000,999,3500,500,700];
-prices.forEach((ele,ind,arr)=>{
-      console.log("Element:",ele+20);
-      console.log("Index:",ind); 
-      console.log(arr); 
-}) 
+// let prices=[2000,999,3500,500,700];
+// prices.forEach((ele,ind,arr)=>{
+//       console.log("Element:",ele+20);
+//       console.log("Index:",ind); 
+//       console.log(arr); 
+// }) 
 
+
+
+// let names=["Rose","Anugraha","Aswathi"];
+// let result=names.forEach((ele)=>{
+//       console.log(ele);
+//       return "Hii";//For each method we cannot return anything 
+      
+// })
+// console.log(result);
+
+
+
+//Important
+
+
+//Map() METHOD
+
+// let names=["Rose","Anugraha","Aswathi"];
+// let res=names.map((ele)=>{
+//       return ele;
+// })
+// console.log(res);
+
+
+// let prices=[100,200,300,400,500];
+// let result=prices.map((element)=>{
+//       return element+50;
+
+// })
+// console.log("Returned Array",result);
+// console.log("Original Array",prices);
 
