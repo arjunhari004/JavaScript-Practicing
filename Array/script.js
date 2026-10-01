@@ -144,3 +144,12 @@
 // console.log("Returned Array",result);
 // console.log("Original Array",prices);
 
+
+
+let users=["Basil","Vasudev","Anugraha","Aswathi"];
+let res=users.map((ele)=>{
+      return ele.toUpperCase()
+})
+console.log("Actual Array",users);
+console.log("Returned Array",res);
+
