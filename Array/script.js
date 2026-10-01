@@ -155,8 +155,17 @@
 
 
 
-let salaries=[3000,10000,30000,45000,75000];
-let res=salaries.filter((ele)=>{
-      return ele>30000
+// let salaries=[3000,10000,30000,45000,75000];
+// let res=salaries.filter((ele)=>{
+//       return ele>30000
+// })
+// console.log(res);
+
+
+
+
+let names=["Rose","Anugraha","Arjun"];
+let res=names.filter((ele)=>{
+      return ele.startsWith("R")
 })
 console.log(res);
