@@ -92,6 +92,33 @@ console.log(employee.experience.address.branch);
 
 
 
+//Order details
+
+let order={
+    orderId:"ORDD123",
+    customerId:"Kiran",
+    amount:2599,
+    paymentSuccesful:true,
+    products:[
+        "T-shirts",
+        "Jeans",
+        "shoes"
+    ],
+    deliveryAddress:{
+        houseNo:"12-45",
+        street:"Main Road",
+        city:"Vijayawada",
+        pincode:65479
+
+    },
+    couponApplied:false,
+    discountAmount:200,
+    deliveryCharge:50,
+    "tracking-Id":null,
+    expectedDelivery:undefined,
+    "payment-Method":"UPI"
+};
+
 
 
 
