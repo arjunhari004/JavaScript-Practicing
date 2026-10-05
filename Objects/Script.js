@@ -83,4 +83,17 @@ let employee={
 
 }
 
+console.log(employee);
+console.log(employee.name);
+console.log(employee.salary);
+console.log(employee.skills);
+console.log(employee.experience.company);
+console.log(employee.experience.address.branch);
+
+
+
+
+
+
+
 
