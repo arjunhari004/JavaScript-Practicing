@@ -121,6 +121,17 @@ let order={
 
 
 
+console.log(order["payment_Method"]);
+console.log(order);
+console.log(order.orderId);
+console.log(order.amount);
+console.log(order.products);
+console.log(order.deliveryAddress.city);
+
+
+
+
+
 
 
 
