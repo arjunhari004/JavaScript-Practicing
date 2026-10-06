@@ -206,6 +206,18 @@ console.log(Object.entries(product));
 
 
 
+//Map Example
+
+let users=["Parvathy","Meenakshi","Liya","Rose"]
+let result=users.map((ele,ind)=>{
+    console.log("element",ele);
+    console.log("Index",ind);
+    return ele
+    
+    
+})
+console.log("Result:",result);
+
 
 
 
