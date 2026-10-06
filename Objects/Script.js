@@ -130,6 +130,23 @@ console.log(order.deliveryAddress.city);
 
 
 
+let mahaguruVictim={
+    victim:"Rose",
+    vId:101
+}
+console.log("Details Of victim",mahaguruVictim);
+console.log(mahaguruVictim.vId);
+console.log(mahaguruVictim["vId"]);
+mahaguruVictim.college="Mahaguru";  //Adding property
+console.log(mahaguruVictim);
+
+
+
+
+
+
+
+
 
 
 
