@@ -153,7 +153,7 @@ console.log(mahaguruVictim["vId"]);
 // mahaguruVictim=null;
 // console.log(mahaguruVictim);
 
-
+//
 
 let product={
     item:"Mobile",
@@ -172,7 +172,22 @@ console.log(product);
 delete product.price;
 console.log(product);//We cannot delete
 
+//
 
+let product={
+    item:"Mobile",
+    price:75000,
+}
+
+console.log("Before Freeze",product);
+Object.freeze(product)
+
+
+product.brand="Samsung"; //Addind is not possible
+
+console.log(product);
+
+product.price=4000;//updating property is not possible
 
 
 
