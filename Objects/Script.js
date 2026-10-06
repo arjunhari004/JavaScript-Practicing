@@ -191,6 +191,20 @@ product.price=4000;//updating property is not possible
 
 
 
+let product={
+    item:"Mobile",
+    price:75000,
+    color:"Black",
+    brand:"Samsung",
+    battery:"6000mAh"
+}
+
+console.log(product.keys);
+console.log(Object.keys(product));
+console.log(Object.values(product));
+console.log(Object.entries(product));
+
+
 
 
 
