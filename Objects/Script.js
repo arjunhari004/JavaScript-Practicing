@@ -137,8 +137,42 @@ let mahaguruVictim={
 console.log("Details Of victim",mahaguruVictim);
 console.log(mahaguruVictim.vId);
 console.log(mahaguruVictim["vId"]);
-mahaguruVictim.college="Mahaguru";  //Adding property
-console.log(mahaguruVictim);
+
+// mahaguruVictim.college="Mahaguru";  //Adding property
+// console.log(mahaguruVictim);
+
+// mahaguruVictim.vId=301;  //Updating Property
+// console.log(mahaguruVictim);
+
+// delete mahaguruVictim.college;
+// console.log(mahaguruVictim); //deleting Property
+
+// delete mahaguruVictim;
+// console.log(mahaguruVictim);
+
+// mahaguruVictim=null;
+// console.log(mahaguruVictim);
+
+
+
+let product={
+    item:"Mobile",
+    price:75000
+}
+console.log("Before Seal",product);
+
+Object.seal(product)
+product.brand="Samsung Galaxy";  //Adding Not possible
+console.log(product);
+
+
+product.price=55000;//Update Possible
+console.log(product);
+
+delete product.price;
+console.log(product);//We cannot delete
+
+
 
 
 
