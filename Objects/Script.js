@@ -223,43 +223,49 @@
 //For of()example-this is an array method to fetch each values from the array
 
 
-let names=["Abin","melbin","Albert","Abhinand"]
-for(let m of names){
-    console.log("Students names:",m);
+// let names=["Abin","melbin","Albert","Abhinand"]
+// for(let m of names){
+//     console.log("Students names:",m);
     
-}
+// }
 
 
 
-let prices=[35,34,544,566,3500]
-for(let x of prices){
-    console.log("Prices",x);
+// let prices=[35,34,544,566,3500]
+// for(let x of prices){
+//     console.log("Prices",x);
     
-}
+// }
 
 
-for(let x in prices){
-    console.log(x);
+// for(let x in prices){
+//     console.log(x);
     
-}
+// }
 
-let noise={
-    name:"FirstRowFirstBoy",
-    id:101,
-    course:"Javascript"
-}
-for(let n in noise){
-    console.log(n);
-    console.log(noise[n]);
-    console.log("Properties",":",noise[n]);
+// let noise={
+//     name:"FirstRowFirstBoy",
+//     id:101,
+//     course:"Javascript"
+// }
+// for(let n in noise){
+//     console.log(n);
+//     console.log(noise[n]);
+//     console.log("Properties",":",noise[n]);
     
+// }
+
+
+
+
+
+
+let prices=[20,30,40,50]
+let res=prices.map((ele,ind,arr)=>{
+    console.log(ele);
     
-    
-}
-
-
-
-
+})
+console.log(res);
 
 
 
