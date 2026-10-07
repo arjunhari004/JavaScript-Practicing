@@ -243,6 +243,20 @@ for(let x in prices){
     
 }
 
+let noise={
+    name:"FirstRowFirstBoy",
+    id:101,
+    course:"Javascript"
+}
+for(let n in noise){
+    console.log(n);
+    console.log(noise[n]);
+    console.log("Properties",":",noise[n]);
+    
+    
+    
+}
+
 
 
 
