@@ -206,17 +206,36 @@
 
 
 
-//Map Example
+// //Map Example
 
-let users=["Parvathy","Meenakshi","Liya","Rose"]
-let result=users.map((ele,ind)=>{
-    console.log("element",ele);
-    console.log("Index",ind);
-    return ele
+// let users=["Parvathy","Meenakshi","Liya","Rose"]
+// let result=users.map((ele,ind)=>{
+//     console.log("element",ele);
+//     console.log("Index",ind);
+//     return ele
     
     
-})
-console.log("Result:",result);
+// })
+// console.log("Result:",result);
+
+
+
+//For of()example-this is an array method to fetch each values from the array
+
+
+let names=["Abin","melbin","Albert","Abhinand"]
+for(let m of names){
+    console.log("Students names:",m);
+    
+}
+
+
+
+let prices=[35,34,544,566,3500]
+for(let x of prices){
+    console.log("Prices",x);
+    
+}
 
 
 
