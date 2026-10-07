@@ -238,7 +238,10 @@ for(let x of prices){
 }
 
 
-
+for(let x in prices){
+    console.log(x);
+    
+}
 
 
 
