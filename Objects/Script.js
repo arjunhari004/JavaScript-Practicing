@@ -260,12 +260,55 @@
 
 
 
-let prices=[20,30,40,50]
-let res=prices.map((ele,ind,arr)=>{
-    console.log(ele);
+// let prices=[20,30,40,50]
+// let res=prices.map((ele,ind,arr)=>{
+//     console.log(ele);
     
+// })
+// console.log(res);
+
+
+let ab=[{
+    name:"aa",
+    id:101
+
+},
+{
+    name:"bb",
+    id:201
+},
+{
+    name:"cc",
+    id:301
+},
+{
+    name:"dd",
+    id:401
+}]
+
+let res=ab.map((ele)=>{
+    return ele.name;
+})
+let res2 = ab.map((ele)=>{
+    return ele.id;
 })
 console.log(res);
+// console.log(res2);
 
 
 
+
+// Create array of 3 objects
+
+
+let data=[{
+    item:"Mobile",
+    price:50000,
+    details:{
+        brand:"Oppo",
+        color:"White"
+    }
+},
+{
+    item:"Laptop"
+}]
