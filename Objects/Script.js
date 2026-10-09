@@ -334,3 +334,13 @@ data.map((ele)=>{
     
     
 })
+
+
+let users=[{name:"Aparna",hobbies:["Coming","Struggling","Going","Thinking"]
+},{Name:"Arjun",hobbies:["Going","Coming","Studying","Chilling"]},
+{Name:"Abin",hobbies:["Going","chilling","Hai"]}]
+
+users.map(()=>{
+    console.log(ele.hobbies[3]);
+    
+})
