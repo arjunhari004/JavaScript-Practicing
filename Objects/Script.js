@@ -344,3 +344,12 @@ users.map(()=>{
     console.log(ele.hobbies[3]);
     
 })
+
+
+// to return above value
+
+let result=users.map((ele)=>{
+    return ele.hobbies[3]
+})
+console.log(result);
+
