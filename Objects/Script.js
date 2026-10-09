@@ -353,3 +353,20 @@ let result=users.map((ele)=>{
 })
 console.log(result);
 
+
+
+let products=[{
+    id:1,
+    name:"Laptop",
+    price:50000,
+    category:{
+        name:"Electronics",
+        department:"Computers"
+    },
+    reviews:[
+        {user:"Ravi",rating:5},
+        {user:"Priya",rating:4}
+    ]
+},
+
+]
