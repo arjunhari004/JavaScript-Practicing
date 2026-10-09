@@ -310,5 +310,27 @@ let data=[{
     }
 },
 {
-    item:"Laptop"
+    item:"Laptop",
+    price:90000,
+    details:{
+        brand:"Hp",
+        color:"Grey"
+    }
+},
+{
+    item:"Keyboard",
+    price:70000,
+    details:{
+        brand:"hp",
+        color:"black"
+    }
 }]
+
+data.map((ele)=>{
+    console.log(ele);
+    console.log(ele.details.color);
+    console.log(ele.details.brand);
+    console.log(ele.price);
+    
+    
+})
