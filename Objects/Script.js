@@ -428,3 +428,16 @@ result.map((ele)=>{
 
 
 
+// Destructuring it is a efficient way to extract multiple values from an object
+
+// Array destructuring
+
+// Keyword[var1,var2....]=ArrayName;
+
+let names=["Abhinandini","Arjun","Abin","Karthik"]
+
+// let[a,b,c,d]=names;
+let[a,b,c,d,e]=names; 
+// it throws undefined
+console.log(b);
+
