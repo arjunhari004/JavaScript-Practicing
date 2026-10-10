@@ -397,3 +397,34 @@
 //     }]
 
 // }]
+
+
+// Use filter salary greater than 45000
+
+let employees=[{
+    employeeName:"John Doe",
+    employeeId:101,
+    salary:25000
+},{
+    employeeName:"Abhinand martin",
+    employeeId:102,
+    salary:35000
+    
+},{
+    employeeName:"Abin devassya",
+    employeeId:103,
+    salary:65000
+}];
+let result=employees.filter((ele)=>{
+    return ele.salary>45000;
+})
+console.log(result);
+result.map((ele)=>{
+    console.log(ele.employeeName);
+    console.log(ele.employeeId);
+    console.log(ele.salary);
+    
+})
+
+
+
