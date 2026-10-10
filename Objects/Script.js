@@ -264,109 +264,136 @@
 // let res=prices.map((ele,ind,arr)=>{
 //     console.log(ele);
     
+// // })
+// // console.log(res);
+
+
+// let ab=[{
+//     name:"aa",
+//     id:101
+
+// },
+// {
+//     name:"bb",
+//     id:201
+// },
+// {
+//     name:"cc",
+//     id:301
+// },
+// {
+//     name:"dd",
+//     id:401
+// }]
+
+// let res=ab.map((ele)=>{
+//     return ele.name;
+// })
+// let res2 = ab.map((ele)=>{
+//     return ele.id;
 // })
 // console.log(res);
-
-
-let ab=[{
-    name:"aa",
-    id:101
-
-},
-{
-    name:"bb",
-    id:201
-},
-{
-    name:"cc",
-    id:301
-},
-{
-    name:"dd",
-    id:401
-}]
-
-let res=ab.map((ele)=>{
-    return ele.name;
-})
-let res2 = ab.map((ele)=>{
-    return ele.id;
-})
-console.log(res);
-// console.log(res2);
+// // console.log(res2);
 
 
 
 
-// Create array of 3 objects
+// // Create array of 3 objects
 
 
-let data=[{
-    item:"Mobile",
-    price:50000,
-    details:{
-        brand:"Oppo",
-        color:"White"
-    }
-},
-{
-    item:"Laptop",
-    price:90000,
-    details:{
-        brand:"Hp",
-        color:"Grey"
-    }
-},
-{
-    item:"Keyboard",
-    price:70000,
-    details:{
-        brand:"hp",
-        color:"black"
-    }
-}]
+// let data=[{
+//     item:"Mobile",
+//     price:50000,
+//     details:{
+//         brand:"Oppo",
+//         color:"White"
+//     }
+// },
+// {
+//     item:"Laptop",
+//     price:90000,
+//     details:{
+//         brand:"Hp",
+//         color:"Grey"
+//     }
+// },
+// {
+//     item:"Keyboard",
+//     price:70000,
+//     details:{
+//         brand:"hp",
+//         color:"black"
+//     }
+// }]
 
-data.map((ele)=>{
-    console.log(ele);
-    console.log(ele.details.color);
-    console.log(ele.details.brand);
-    console.log(ele.price);
+// data.map((ele)=>{
+//     console.log(ele);
+//     console.log(ele.details.color);
+//     console.log(ele.details.brand);
+//     console.log(ele.price);
     
     
-})
+// })
 
 
-let users=[{name:"Aparna",hobbies:["Coming","Struggling","Going","Thinking"]
-},{Name:"Arjun",hobbies:["Going","Coming","Studying","Chilling"]},
-{Name:"Abin",hobbies:["Going","chilling","Hai"]}]
+// let users=[{name:"Aparna",hobbies:["Coming","Struggling","Going","Thinking"]
+// },{Name:"Arjun",hobbies:["Going","Coming","Studying","Chilling"]},
+// {Name:"Abin",hobbies:["Going","chilling","Hai"]}]
 
-users.map(()=>{
-    console.log(ele.hobbies[3]);
+// users.map(()=>{
+//     console.log(ele.hobbies[3]);
     
-})
+// })
 
 
-// to return above value
+// // to return above value
 
-let result=users.map((ele)=>{
-    return ele.hobbies[3]
-})
-console.log(result);
+// let result=users.map((ele)=>{
+//     return ele.hobbies[3]
+// })
+// console.log(result);
 
 
 
-let products=[{
-    id:1,
-    name:"Laptop",
-    price:50000,
-    category:{
-        name:"Electronics",
-        department:"Computers"
-    },
-    reviews:[
-        {user:"Ravi",rating:5},
-        {user:"Priya",rating:4}
-    ]
-},
+// let products=[{
+//     id:1,
+//     name:"Laptop",
+//     price:50000,
+//     category:{
+//         name:"Electronics",
+//         department:"Computers"
+//     },
+//     reviews:[
+//         {user:"Ravi",rating:5},
+//         {user:"Priya",rating:4}
+//     ]
+// },
 
-]
+// ]
+
+
+
+// let restaurants=[
+//     {
+//     name:"Spicy Kitchen",
+//     location:{
+//         city:"Kochi",
+//         area:"Palarivettom"
+//     },
+//     menu:[
+//         {
+//             item:"Chicken Biriyani",
+//             price:250,
+//             ingredients:["Rice","Chicken","Biri"]
+//             chef:{
+//                 name:"Arun",
+//                 experience:8
+//             }
+
+//     },
+//     {
+//         item:"Veg Biriyani",
+
+//     }]
+
+// }]
