@@ -64,3 +64,26 @@ function f1(){
     
 }
 f1()
+
+
+//arrow functions do not have their own this keyword
+//it takes this from outer scope
+//(Inside outer scope we have window object)
+//so it points to window object only...
+
+let a=()=>{
+    console.log(this);
+    
+}
+a()
+
+
+let student1={
+    user:"liya",
+    age:22,
+    display:()=>{
+        console.log(this);
+        
+    }
+}
+student1.display()
