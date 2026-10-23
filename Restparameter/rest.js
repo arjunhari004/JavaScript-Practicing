@@ -54,7 +54,7 @@ student.display()
 // Non-strict mode
 
 function f1(){
-    // console.log(this);window
+    console.log(this); //this points to windowwindow
     
 }f1()
 
