@@ -115,6 +115,7 @@ let account ={
 };
 
 account.withdraw(1000);
+account.showBalance();
 
 
 
