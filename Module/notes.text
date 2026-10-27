@@ -1,0 +1,16 @@
+Modules--
+
+It is a piece of code that you can import and export
+From one file to another file
+by using this we can write cleaner code
+Export-sending
+Import-receiving
+
+
+We have 2 types of modules
+1.Named module- named module can send multiple things.
+while importing(receiving) we shound use {} and same variable name.
+
+
+2.Default module- it can send only one default module
+while importing(receiving) we no need use {} and we can use any variable name.
