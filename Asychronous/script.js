@@ -46,3 +46,24 @@
 
 
 
+//setInterval()
+console.log("Start");
+setInterval(() => {
+    console.log("This is asynchronus code");
+    console.log("It will keep on execute after a delay time");
+    
+    
+},3000);
+console.log("End");
+
+
+//counter
+console.log("Timer Standard");
+let count=0;
+setInterval(()=>{
+    count++;
+    console.log("Count Down:",count);
+    
+},1000)
+
+
