@@ -37,5 +37,10 @@ setTimeout(()=>{
 console.log("Your boooking is in process..."); //synchronous code 
 
 
+console.log("Loading...");
+setTimeout(()=>{
+    console.log("Data Loaded Succesfully");
+    
+},3000)
 
 
