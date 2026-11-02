@@ -210,3 +210,17 @@ bus.then((message)=>{
     
 })
 
+
+
+
+//converting javascript object to json
+
+let student={
+    name:"Johan",
+    isActive:true,
+    hasGirlfriend:5
+
+}
+
+let x=JSON.stringify(student)
+console.log(x);
