@@ -224,3 +224,19 @@ let student={
 
 let x=JSON.stringify(student)
 console.log(x);
+
+
+// Coverting JSON to javscript object
+
+let result=JSON.parse(x)
+console.log(result);
+console.log(result.hasGirlfriend);
+
+
+
+
+
+
+
+
+
