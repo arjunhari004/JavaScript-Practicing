@@ -105,19 +105,37 @@
 
 //Updating the existing data
 
+// let promise1=fetch("https://jsonplaceholder.typicode.com/posts",{
+//     method:"PUT",
+//     headers:{
+//         "Content-Type":"application/json"
+//     },
+//     body:JSON.stringify({
+//         title:"Kochi Students",
+//         body:"Javascript is going to end"
+//     })
+// })
+// promise1.then((response)=>{
+//     let promise2=response.json()
+//     promise2.then((value)=>{
+
+//     })
+// })
+
+
+
+///Deleting existing data
 let promise1=fetch("https://jsonplaceholder.typicode.com/posts",{
-    method:"PUT",
-    headers:{
-        "Content-Type":"application/json"
-    },
-    body:JSON.stringify({
-        title:"Kochi Students",
-        body:"Javascript is going to end"
-    })
+    method:"Delete",
 })
 promise1.then((response)=>{
     let promise2=response.json()
     promise2.then((value)=>{
-
+        console.log(value);
+        
     })
+})
+.catch((error)=>{
+    console.log(error);
+    
 })
