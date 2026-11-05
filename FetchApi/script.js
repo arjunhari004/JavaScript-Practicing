@@ -22,25 +22,48 @@
 
 
 
-let promise1=fetch("https://fakestoreapi.com/products")
-promise1.then((response)=>{
-    let promise2= response.json()
-    promise2.then((value)=>{
-        // console.log(value);
-        value.forEach((ele)=>{
-            // console.log(ele); //Giving 20 objects
-            console.log("Product id:",ele.id);
-            console.log("Category:",ele.category);
-            console.log("Price",ele.price);
-            // console.log(ele.rating); //rating object
+// let promise1=fetch("https://fakestoreapi.com/products")
+// promise1.then((response)=>{
+//     let promise2= response.json()
+//     promise2.then((value)=>{
+//         // console.log(value);
+//         value.forEach((ele)=>{
+//             // console.log(ele); //Giving 20 objects
+//             console.log("Product id:",ele.id);
+//             console.log("Category:",ele.category);
+//             console.log("Price",ele.price);
+//             // console.log(ele.rating); //rating object
             
-            console.log("Rating:",ele.rating.rate);
-            
-            
+//             console.log("Rating:",ele.rating.rate);
             
             
             
-        })
+            
+            
+//         })
         
-    })
-})
+//     })
+// })
+
+
+
+let promise1 = fetch("https://fakestoreapi.com/carts");
+promise1.then((response) => {
+    let promise2 = response.json();
+    promise2.then((value) => {
+        value.forEach((ele) => {
+            console.log(ele);
+            console.log("User id:", ele.userId);
+            ele.products.forEach((product) => {
+                console.log("Product ID:", product.productId);
+                console.log("Quantity:", product.quantity);
+            });
+        });
+    }).catch((reason) => {
+        console.log(reason);
+    });
+}).catch((reason) => {
+    console.log(reason);
+});
+
+
