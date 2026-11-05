@@ -47,23 +47,77 @@
 
 
 
-let promise1 = fetch("https://fakestoreapi.com/carts");
-promise1.then((response) => {
-    let promise2 = response.json();
-    promise2.then((value) => {
-        value.forEach((ele) => {
-            console.log(ele);
-            console.log("User id:", ele.userId);
-            ele.products.forEach((product) => {
-                console.log("Product ID:", product.productId);
-                console.log("Quantity:", product.quantity);
-            });
-        });
-    }).catch((reason) => {
-        console.log(reason);
-    });
-}).catch((reason) => {
-    console.log(reason);
-});
+// let promise1 = fetch("https://fakestoreapi.com/carts");
+// promise1.then((response) => {
+//     let promise2 = response.json();
+//     promise2.then((value) => {
+//         value.forEach((ele) => {
+//             console.log(ele);
+//             console.log("User id:", ele.userId);
+//             ele.products.forEach((product) => {
+//                 console.log("Product ID:", product.productId);
+//                 console.log("Quantity:", product.quantity);
+//             });
+//         });
+//     }).catch((reason) => {
+//         console.log(reason);
+//     });
+// }).catch((reason) => {
+//     console.log(reason);
+// });
 
 
+
+
+
+///
+
+
+//how to send data to the server
+//Sending new data
+
+// let promise1=fetch("https://jsonplaceholder.typicode.com/posts",{
+//     method:"POST",
+//     headers:{
+//         "Content-Type":"application/json"
+//     },
+//     body:JSON.stringify({
+//         name:"arjun",
+//         course:"React"
+//     })
+
+// })
+// promise1.then((response)=>{
+//     let promise2=response.json()
+//     promise2.then((value)=>{
+//         console.log(value);
+        
+//     })
+// })
+// .catch((error)=>{
+//     console.log(error);
+    
+// })
+
+
+
+
+
+//Updating the existing data
+
+let promise1=fetch("https://jsonplaceholder.typicode.com/posts",{
+    method:"PUT",
+    headers:{
+        "Content-Type":"application/json"
+    },
+    body:JSON.stringify({
+        title:"Kochi Students",
+        body:"Javascript is going to end"
+    })
+})
+promise1.then((response)=>{
+    let promise2=response.json()
+    promise2.then((value)=>{
+
+    })
+})
