@@ -125,17 +125,41 @@
 
 
 ///Deleting existing data
-let promise1=fetch("https://jsonplaceholder.typicode.com/posts",{
-    method:"Delete",
-})
-promise1.then((response)=>{
-    let promise2=response.json()
-    promise2.then((value)=>{
-        console.log(value);
+// let promise1=fetch("https://jsonplaceholder.typicode.com/posts",{
+//     method:"Delete",
+// })
+// promise1.then((response)=>{
+//     let promise2=response.json()
+//     promise2.then((value)=>{
+//         console.log(value);
         
-    })
-})
-.catch((error)=>{
-    console.log(error);
+//     })
+// })
+// .catch((error)=>{
+//     console.log(error);
     
+// })
+
+
+
+//
+
+let promise1 = fetch("https://api.tvmaze.com/singlesearch/shows?q=girls");
+
+promise1.then((response) => {
+    let promise2 = response.json();
+    promise2.then((value) => {
+
+        console.log(value);
+
+        console.log("Show Name:", value.type);
+        console.log("time:", value.schedule.time);
+        console.log("Status:", value.status);
+        console.log("days:", value.schedule.days);
+
+    });
+
 })
+.catch((reason) => {
+    console.log(reason);
+});
