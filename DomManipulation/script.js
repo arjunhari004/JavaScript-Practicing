@@ -15,8 +15,8 @@
 
 
 let h1=document.getElementById("heading")
-console.log(h1.innerHTML);
-console.log(h1.innerHTML);
+console.log(h1.innerHTML); //returns content + html tag
+console.log(h1.innerHTML); //returns content only
 
 
 //changing content using innerHtml
@@ -25,7 +25,7 @@ console.log(h1.innerHTML);
 
 
 //changing content using innerText
-h1.innerText="Thottappally <i>Main rocket</i>"
+h1.innerText="Thottappally <i>Main rocket Abhinand</i>"  //Here we cannot add italic tags lie <i> </i>
 console.log(h1.innerText);
 
 
