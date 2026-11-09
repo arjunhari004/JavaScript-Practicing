@@ -14,18 +14,94 @@
 
 
 
-let h1=document.getElementById("heading")
-console.log(h1.innerHTML); //returns content + html tag
-console.log(h1.innerHTML); //returns content only
+// let h1=document.getElementById("heading")
+// console.log(h1.innerHTML); //returns content + html tag
+// console.log(h1.innerHTML); //returns content only
 
 
-//changing content using innerHtml
-h1.innerHTML="Thottappally <i>Main rocket</i>"
-console.log(h1.innerHTML);
+// //changing content using innerHtml
+// h1.innerHTML="Thottappally <i>Main rocket</i>"
+// console.log(h1.innerHTML);
 
 
-//changing content using innerText
-h1.innerText="Thottappally <i>Main rocket Abhinand</i>"  //Here we cannot add italic tags lie <i> </i>
-console.log(h1.innerText);
+// //changing content using innerText
+// h1.innerText="Thottappally <i>Main rocket Abhinand</i>"  //Here we cannot add italic tags lie <i> </i>
+// console.log(h1.innerText);
 
 
+let div=document.getElementById("box")
+console.log(div.innerText);  //It returns only visible content
+
+
+//getting the content using textcontent
+
+console.log(div.textContent);
+
+//changing content using textcontent
+
+div.textContent="Bye Bye qspiders"
+
+//it returns all the contents including the hiding content
+
+
+
+// innerHtml -> it is used to get or change the Html content inside sn element,  including Html tags
+
+// let h1=document.getElementById("heading")
+// console.log(h1);
+// console.dir(h1); // it gives object
+// console.log(h1.innerHTML); // getting the data
+// h1.innerHTML="hero venkit"; // adding new content (only text)
+// console.log(h1.innerHTML);
+// adding new content (text or tag)
+// h1.innerHTML="Welcome to qspider <span>Hero abu</span>"
+// console.log(h1);
+
+
+
+//innerHtml and innetext
+
+// let h1=document.getElementById("heading")
+// console.log(h1.innerHTML); // returns content + html tags
+// console.log(h1.innerText); // returns only content
+
+
+// changing the content using innerHtml
+// h1.innerHTML="alapuzha <i> don <i>"
+// console.log(h1.innerHTML);
+
+// changing content using innerText
+// h1.innerText="alapuzha <i> don <i>"
+// console.log(h1.innerText);
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+// let div=document.getElementById("Box")
+// // console.log(div.innerText);
+// // it returns only visible content
+
+
+// // getting the content using textContent
+// console.log(div.textContent);
+// // //changing content using textContent
+// div.textContent="miss you machuuussssssss"
+
+//it returns all the content including the hide content also
+
+
+
+
+//////////////////////////////////
+// chnaging or adding style using javascript
+
+let h1=document.getElementById("company")
+function victims(){
+    h1.innerText="Testyantra...😴"
+    h1.style.color="orange";
+    h1.style.fontSize="30px";
+    h1.style.fontStyle="italic";
+    h1.style.backgroundColor="black"
+    // alert("Hello victims how are you.....")
+}
