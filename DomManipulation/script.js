@@ -175,12 +175,31 @@ i.innerText="Mahaguru institute"
 // h1.remove()
 
 
-let img=document.getElementById("x")
-console.log(img);
-console.log(img.getAttribute("src"));
-img.setAttribute("alt","actor")
-img.removeAttribute("src")
+// let img=document.getElementById("x")
+// console.log(img);
+// console.log(img.getAttribute("src"));
+// img.setAttribute("alt","actor")
+// img.removeAttribute("src")
 
 
 
+//Inline Event Handling
+
+function f1(){
+    alert("Hello Guys.....")
+}
+
+
+//using dom event properties
+let btn=document.getElementById("btn")
+btn.onclick=function(){
+    alert("qspiders Jspiders")
+}
+
+//addevenrlistner()
+
+let btn=document.getElementById("btn")
+btn.addEventListener("click",()=>{
+    alert("Lunch Break")
+})
 
