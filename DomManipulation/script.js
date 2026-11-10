@@ -238,9 +238,25 @@
     
 // })
 
+// let input=document.getElementById("x")
+// input.addEventListener("input",()=>{
+//     let p=document.getElementById("p")
+//     p.innerText="User Typing:"+input.value;
+    
+// })
+
+
+
+//form
+
+
 let input=document.getElementById("x")
-input.addEventListener("input",()=>{
-    let p=document.getElementById("p")
-    p.innerText="User Typing:"+input.value;
+let form=document.getElementById("myform")
+form.addEventListener("submit",(event)=>{
+    //it stops browser default behaviour(page reload)
+    event.preventDefault()
+    console.log(input.value);
+    console.log("Form Submitted");
+    
     
 })
