@@ -159,3 +159,28 @@ i.innerText="Mahaguru institute"
 //INSERTING INSIDE THE DIV
 
 
+
+
+
+//10/11/2026
+
+// let h1=document.getElementById("kalam")
+// console.log(h1);
+// console.log(h1.classList.contains("victims"));
+
+
+//remove element
+
+// let h1=document.getElementById("kalam")
+// h1.remove()
+
+
+let img=document.getElementById("x")
+console.log(img);
+console.log(img.getAttribute("src"));
+img.setAttribute("alt","actor")
+img.removeAttribute("src")
+
+
+
+
