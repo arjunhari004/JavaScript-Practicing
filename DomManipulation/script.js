@@ -250,13 +250,23 @@
 //form
 
 
-let input=document.getElementById("x")
-let form=document.getElementById("myform")
-form.addEventListener("submit",(event)=>{
-    //it stops browser default behaviour(page reload)
-    event.preventDefault()
-    console.log(input.value);
-    console.log("Form Submitted");
+// let input=document.getElementById("x")
+// let form=document.getElementById("myform")
+// form.addEventListener("submit",(event)=>{
+//     //it stops browser default behaviour(page reload)
+//     event.preventDefault()
+//     console.log(input.value);
+//     console.log("Form Submitted");
     
     
-})
+// })
+
+
+let sec = document.createElement("section");
+let para = document.createElement("p");
+let span = document.createElement("span");
+para.innerHTML = "Testyantra";
+span.innerHTML = "QSPIDERS";
+sec.append(para);
+sec.append(span);
+document.body.append(sec);
