@@ -278,11 +278,32 @@
 // Inline Event Handling
 // (Writing the event directly inside the html elemnent )
 //NOTE: we can not use same event multiple times
-function f1(){
-    console.log("Ticket Booked Succesfully");
+// function f1(){
+//     console.log("Ticket Booked Succesfully");
 
+// }
+// function f2(){
+//     console.log("Payment Succesful");
+    
+// }
+
+
+
+// Using dom event properties
+
+//NOTE: we can not use same event multiple times
+//If u try to use,it takes only latest one
+
+let btn=document.getElementById("btn")
+btn.onclick=function(){
+    console.log("Added to the cart succesfully");
+    
 }
-function f2(){
-    console.log("Payment Succesful");
+btn.onclick=function(){
+    console.log("Item is not available");
+    
+}
+btn.onclick=function(){
+    console.log("Using Dom event properties,it takes latest one");
     
 }
