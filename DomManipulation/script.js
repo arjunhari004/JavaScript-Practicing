@@ -262,11 +262,27 @@
 // })
 
 
-let sec = document.createElement("section");
-let para = document.createElement("p");
-let span = document.createElement("span");
-para.innerHTML = "Testyantra";
-span.innerHTML = "QSPIDERS";
-sec.append(para);
-sec.append(span);
-document.body.append(sec);
+// let sec = document.createElement("section");
+// let para = document.createElement("p");
+// let span = document.createElement("span");
+// para.innerHTML = "Testyantra";
+// span.innerHTML = "QSPIDERS";
+// sec.append(para);
+// sec.append(span);
+// console.log(sec);
+
+// document.body.append(sec);
+
+
+
+// Inline Event Handling
+// (Writing the event directly inside the html elemnent )
+//NOTE: we can not use same event multiple times
+function f1(){
+    console.log("Ticket Booked Succesfully");
+
+}
+function f2(){
+    console.log("Payment Succesful");
+    
+}
