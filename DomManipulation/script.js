@@ -294,16 +294,34 @@
 //NOTE: we can not use same event multiple times
 //If u try to use,it takes only latest one
 
+// let btn=document.getElementById("btn")
+// btn.onclick=function(){
+//     console.log("Added to the cart succesfully");
+    
+// }
+// btn.onclick=function(){
+//     console.log("Item is not available");
+    
+// }
+// btn.onclick=function(){
+//     console.log("Using Dom event properties,it takes latest one");
+    
+// }
+
+
+
+// Addeventlistner
+
+// Note: we can use same event multiple times
+
 let btn=document.getElementById("btn")
-btn.onclick=function(){
-    console.log("Added to the cart succesfully");
+btn.addEventListener("click",()=>{
+    console.log("Course Enrolled succesfully");
     
-}
-btn.onclick=function(){
-    console.log("Item is not available");
-    
-}
-btn.onclick=function(){
-    console.log("Using Dom event properties,it takes latest one");
-    
-}
+})
+btn.addEventListener("click",()=>{
+    console.log("Please Pay 35000 for course entry");
+})    
+btn.addEventListener("click",()=>{
+    console.log("Thank you For enrolling");
+})    

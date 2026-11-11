@@ -239,4 +239,3 @@ console.log(result.hasGirlfriend);
 
 
 
-
