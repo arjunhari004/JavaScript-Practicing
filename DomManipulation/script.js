@@ -314,14 +314,32 @@
 
 // Note: we can use same event multiple times
 
-let btn=document.getElementById("btn")
-btn.addEventListener("click",()=>{
-    console.log("Course Enrolled succesfully");
+// let btn=document.getElementById("btn")
+// btn.addEventListener("click",()=>{
+//     console.log("Course Enrolled succesfully");
+    
+// })
+// btn.addEventListener("click",()=>{
+//     console.log("Please Pay 35000 for course entry");
+// })    
+// btn.addEventListener("click",()=>{
+//     console.log("Thank you For enrolling");
+// })    
+
+
+
+//12/11/2026
+
+let btn=document.getElementById("x")
+btn.addEventListener("click",(event)=>{
+    console.log(event);
+    console.log(event.type);
+    console.log(event.target);
+    console.log(event.target.tagName);
     
 })
-btn.addEventListener("click",()=>{
-    console.log("Please Pay 35000 for course entry");
-})    
-btn.addEventListener("click",()=>{
-    console.log("Thank you For enrolling");
-})    
+
+
+
+//Event Propagation
+
