@@ -330,16 +330,59 @@
 
 //12/11/2026
 
-let btn=document.getElementById("x")
-btn.addEventListener("click",(event)=>{
-    console.log(event);
-    console.log(event.type);
-    console.log(event.target);
-    console.log(event.target.tagName);
+// let btn=document.getElementById("x")
+// btn.addEventListener("click",(event)=>{
+//     console.log(event);
+//     console.log(event.type);
+//     console.log(event.target);
+//     console.log(event.target.tagName);
     
-})
+// })
 
 
 
 //Event Propagation
 
+//Bubble
+
+// let parent=document.getElementById("p")
+// let child=document.getElementById("c")
+// let grandchild=document.getElementById("gc")
+
+// parent.addEventListener("click",()=>{
+//     console.log("Parent Clicked");
+    
+// })
+
+// child.addEventListener("click",()=>{
+//     console.log("child Clicked");
+    
+// })
+
+// grandchild.addEventListener("click",()=>{
+//     console.log("grand child  Clicked");
+    
+// })
+
+
+//
+
+let parent=document.getElementById("p")
+let child=document.getElementById("c")
+let grandchild=document.getElementById("gc")
+
+parent.addEventListener("click",()=>{
+    console.log("Parent Clicked");
+    
+})
+
+child.addEventListener("click",()=>{
+    console.log("child Clicked");
+    
+})
+
+grandchild.addEventListener("click",(event)=>{
+    event.stopPropagation()
+    console.log("grand child  Clicked");
+    
+})
