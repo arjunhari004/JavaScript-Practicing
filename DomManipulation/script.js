@@ -367,22 +367,111 @@
 
 //
 
-let parent=document.getElementById("p")
-let child=document.getElementById("c")
-let grandchild=document.getElementById("gc")
+// let parent=document.getElementById("p")
+// let child=document.getElementById("c")
+// let grandchild=document.getElementById("gc")
 
-parent.addEventListener("click",()=>{
-    console.log("Parent Clicked");
+// parent.addEventListener("click",()=>{
+//     console.log("Parent Clicked");
     
+// })
+
+// child.addEventListener("click",()=>{
+//     console.log("child Clicked");
+    
+// })
+
+// grandchild.addEventListener("click",(event)=>{
+//     event.stopPropagation()
+//     console.log("grand child  Clicked");
+    
+// })
+
+
+
+// parent.addEventListener("click",()=>{
+//     console.log("Parent Clicked");
+    
+// })
+
+// child.addEventListener("click",(event)=>{
+//     event.stopPropagation()
+//     console.log("child Clicked");
+    
+// })
+
+// grandchild.addEventListener("click",(event)=>{
+//     event.stopPropagation()
+//     console.log("grand child  Clicked");
+    
+// })
+
+
+// if you want to see capturing phase we have to use 3rd argument as true
+
+// parent.addEventListener("click",()=>{
+//     console.log("Parent Clicked");
+    
+// },true)
+
+// child.addEventListener("click",()=>{
+//     console.log("child Clicked");
+    
+// },true)
+
+// grandchild.addEventListener("click",()=>{
+//     console.log("grand child  Clicked");
+    
+// })
+
+
+
+//13-11-2026
+
+
+// dom traversing
+
+// it is a process of moving from one element to another relatest element
+
+// let parent=document.getElementById("product")
+// console.log(parent);
+// console.log(parent.children);
+// console.log(parent.firstElementChild);
+// console.log(parent.lastElementChild);
+
+
+
+// let price=document.getElementById("price")
+// console.log(price);
+// console.log(price.parentElement);
+// console.log(price.previousElementSibling);
+// console.log(price.nextElementSibling);
+
+
+
+// WITHOUT EVENT DELEGATION
+
+
+let btn1=document.getElementById("btn1")
+let btn2=document.getElementById("btn2")
+let btn3=document.getElementById("btn3")
+
+btn1.addEventListener("click",()=>{
+    let price1=document.getElementById("price1")
+    alert(`Added to cart:${price1.previousElementSilbling.innerhtml}`)
 })
 
-child.addEventListener("click",()=>{
-    console.log("child Clicked");
-    
+
+btn2.addEventListener("click",()=>{
+    let price2=document.getElementById("price2")
+    alert(`Added to cart:${price2.previousElementSilbling.innerhtml}`)
 })
 
-grandchild.addEventListener("click",(event)=>{
-    event.stopPropagation()
-    console.log("grand child  Clicked");
-    
+
+btn3.addEventListener("click",()=>{
+    let price3=document.getElementById("price3")
+    alert(`Added to cart:${price3.previousElementSilbling.innerhtml}`)
 })
+
+
+
