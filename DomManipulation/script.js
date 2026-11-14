@@ -527,3 +527,4 @@ products.addEventListener("click",(event)=>{
     }
    
 })
+
