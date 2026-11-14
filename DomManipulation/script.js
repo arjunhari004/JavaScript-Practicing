@@ -456,22 +456,74 @@ let btn1=document.getElementById("btn1")
 let btn2=document.getElementById("btn2")
 let btn3=document.getElementById("btn3")
 
-btn1.addEventListener("click",()=>{
-    let price1=document.getElementById("price1")
-    alert(`Added to cart:${price1.previousElementSilbling.innerhtml}`)
+// btn1.addEventListener("click",(event)=>{
+//     let price1=document.getElementById("price1")
+//     alert(`Added to cart:${price1.previousElementSilbling.innerhtml}`)
+// })
+
+
+// btn2.addEventListener("click",()=>{
+//     let price2=document.getElementById("price2")
+//     alert(`Added to cart:${price2.previousElementSilbling.innerhtml}`)
+// })
+
+
+// btn3.addEventListener("click",()=>{
+//     let price3=document.getElementById("price3")
+//     alert(`Added to cart:${price3.previousElementSilbling.innerhtml}`)
+// })
+
+btn1.addEventListener("click",(event)=>{
+    let parent=event.target.parentElement
+    console.log(parent);
+    let h2=parent.querySelector("h2")
+    console.log(h2);
+    console.log(h2.innerText);
+    alert(`Added to cart: $(h2.innerText)`)
+    
+    
+    
+})
+
+btn2.addEventListener("click",(event)=>{
+    let parent=event.target.parentElement
+    console.log(parent);
+    let h2=parent.querySelector("h2")
+    console.log(h2);
+    console.log(h2.innerText);
+    alert(`Added to cart: $(h2.innerText)`)
+
 })
 
 
-btn2.addEventListener("click",()=>{
-    let price2=document.getElementById("price2")
-    alert(`Added to cart:${price2.previousElementSilbling.innerhtml}`)
+btn3.addEventListener("click",(event)=>{
+    let parent=event.target.parentElement
+    console.log(parent);
+    let h2=parent.querySelector("h2")
+    console.log(h2);
+    console.log(h2.innerText);
+    alert(`Added to cart: $(h2.innerText)`)
+})    
+
+
+
+// Evemt delegtion
+
+let product=document.getElementById("products")
+console.log(products); //(main(div)) Container
+products.addEventListener("click",(event)=>{
+    console.log(event.target); //returns entire element
+    console.log(event.target.tagName); //returns only tagname in UPPERCASE
+    if(event.target.tagName=="BUTTON"){
+        let button=event.target;
+        let parent=button.parentElement
+        console.log(parent);
+        let h2=parent.querySelector("h2")
+        console.log(h2);
+        console.log(h2.innerText);
+        alert(`Product Added To the cart: $(h2.innerText)`)
+        
+    
+    }
+   
 })
-
-
-btn3.addEventListener("click",()=>{
-    let price3=document.getElementById("price3")
-    alert(`Added to cart:${price3.previousElementSilbling.innerhtml}`)
-})
-
-
-
