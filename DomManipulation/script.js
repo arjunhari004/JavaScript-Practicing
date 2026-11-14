@@ -528,3 +528,9 @@ products.addEventListener("click",(event)=>{
    
 })
 
+
+
+let cart=document.getElementById("cart")
+let count=0;
+let products=document.getElementById("products")
+console.log(products);
